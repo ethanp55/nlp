@@ -139,3 +139,5 @@ dmypy.json
 # Large word embeddings, data files, and other files
 glove/
 training.1600000.processed.noemoticon.csv
+df_with_tokens.csv
+text_vectorization_layer/
