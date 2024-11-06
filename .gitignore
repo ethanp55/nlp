@@ -142,3 +142,5 @@ training.1600000.processed.noemoticon.csv
 df_with_tokens.csv
 text_vectorization_layer/
 wiki-news-300d-1M-subword.vec
+albert/
+finetuned_mrbach/
