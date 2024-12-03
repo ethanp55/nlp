@@ -40,7 +40,7 @@ def read_root():
     return {'message': 'chat converter is running'}
 
 
-# Endpoint for converting human chat/text messages into predfined messages
+# Endpoint for converting human chat/text messages into predefined messages
 @app.post('/convert/')
 async def convert_message(request: MessageConversionRequest):
     text, n_preds = request.text, request.n_preds
